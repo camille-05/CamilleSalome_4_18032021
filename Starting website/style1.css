@@ -960,6 +960,8 @@ h4 {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
+        display: flex;
+        text-align: center;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,

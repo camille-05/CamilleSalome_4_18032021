@@ -17,16 +17,9 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+   
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
 
 .bloc {
     width: 100%;
@@ -480,6 +473,7 @@ nav .caret {
 .ltc-white.bold-link
 {
     font-size: 15px;
+    position: relative;
 }
 
 .btn {
@@ -630,7 +624,12 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
-
+.pictureCaroussel
+{
+    width: 270px;
+    height: 270px;
+    margin: auto;
+}
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -647,9 +646,8 @@ a[data-lightbox]:hover::before {
      transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     margin-left: -25px;
-    
-    
 }
+
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
@@ -801,6 +799,8 @@ p {
 {
     color: #000000!important;
     background-color:#F3976C ;
+    position: relative;
+    top: 20px;
 }
 
 .social {
@@ -903,6 +903,7 @@ h4 {
     background: #F3976C;
     color: #141414!important;
     text-decoration: none;
+    position: relative;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1065,7 +1066,7 @@ h4 {
 {
     width: 270px;
     height: 270px;
-    margin-left: 25px;
+    
 }
 
     .nav > li:hover {
@@ -1235,8 +1236,8 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    
     
 }
 
